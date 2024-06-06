@@ -5,8 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ExamsPlatform.ClientWPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-		<TextBlock Text="push this to github." />
-	</Grid>
+        Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded">
+	<ScrollViewer>
+		<Grid>
+			<Grid.RowDefinitions>
+				<RowDefinition Height="30"/>
+				<RowDefinition/>
+				<RowDefinition Height="20"/>
+			</Grid.RowDefinitions>
+			<ContentControl x:Name="MenuContent"/>
+			<ContentControl Name="bodyContent" Grid.Row="1"/>
+			<TextBlock HorizontalAlignment="Center" Text="My name is Arni Izhack and this is my project." Grid.Row="2"/>
+		</Grid>
+	</ScrollViewer>
 </Window>
