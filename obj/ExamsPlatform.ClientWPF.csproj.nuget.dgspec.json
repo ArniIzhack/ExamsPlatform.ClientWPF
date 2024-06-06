@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\arni1\\OneDrive\\Desktop\\fullstackcours\\c#\\projects\\ExamsPlatform\\ExamsPlatform.ClientWPF\\ExamsPlatform.ClientWPF\\ExamsPlatform.ClientWPF.csproj": {}
+    "C:\\Users\\arni1\\OneDrive\\Desktop\\fullstackcours\\c#\\projects\\ExamsPlatform\\ClientWPF\\ExamsPlatform.ClientWPF.csproj": {}
   },
   "projects": {
-    "C:\\Users\\arni1\\OneDrive\\Desktop\\fullstackcours\\c#\\projects\\ExamsPlatform\\ExamsPlatform.ClientWPF\\ExamsPlatform.ClientWPF\\ExamsPlatform.ClientWPF.csproj": {
+    "C:\\Users\\arni1\\OneDrive\\Desktop\\fullstackcours\\c#\\projects\\ExamsPlatform\\ClientWPF\\ExamsPlatform.ClientWPF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\arni1\\OneDrive\\Desktop\\fullstackcours\\c#\\projects\\ExamsPlatform\\ExamsPlatform.ClientWPF\\ExamsPlatform.ClientWPF\\ExamsPlatform.ClientWPF.csproj",
+        "projectUniqueName": "C:\\Users\\arni1\\OneDrive\\Desktop\\fullstackcours\\c#\\projects\\ExamsPlatform\\ClientWPF\\ExamsPlatform.ClientWPF.csproj",
         "projectName": "ExamsPlatform.ClientWPF",
-        "projectPath": "C:\\Users\\arni1\\OneDrive\\Desktop\\fullstackcours\\c#\\projects\\ExamsPlatform\\ExamsPlatform.ClientWPF\\ExamsPlatform.ClientWPF\\ExamsPlatform.ClientWPF.csproj",
+        "projectPath": "C:\\Users\\arni1\\OneDrive\\Desktop\\fullstackcours\\c#\\projects\\ExamsPlatform\\ClientWPF\\ExamsPlatform.ClientWPF.csproj",
         "packagesPath": "C:\\Users\\arni1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\arni1\\OneDrive\\Desktop\\fullstackcours\\c#\\projects\\ExamsPlatform\\ExamsPlatform.ClientWPF\\ExamsPlatform.ClientWPF\\obj\\",
+        "outputPath": "C:\\Users\\arni1\\OneDrive\\Desktop\\fullstackcours\\c#\\projects\\ExamsPlatform\\ClientWPF\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\arni1\\AppData\\Roaming\\NuGet\\NuGet.Config",
