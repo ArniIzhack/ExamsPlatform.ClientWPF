@@ -1,4 +1,5 @@
-﻿using System.ComponentModel;
+﻿using ExamsPlatform.ClientWPF.Views.Menus;
+using System.ComponentModel;
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
@@ -20,6 +21,12 @@ namespace ExamsPlatform.ClientWPF
 		public MainWindow()
 		{
 			InitializeComponent();
+		}
+
+		private void Window_Loaded(object sender, RoutedEventArgs e)
+		{
+			NoUserMenu noUserMenu = new NoUserMenu();
+			MenuContent.Content = noUserMenu;
 		}
 	}
 }
