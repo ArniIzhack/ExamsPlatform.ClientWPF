@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "woG4zspLpNryhSaIcacICuVpbrEsbIRh/1qiVVhY5YoASk25bmBmH9CZrBzTCo3qOENqwctl5sz68tP23+iyFA==",
+  "dgSpecHash": "n4ZT1YUXnX00BDpgbs8KmcdM73hPclrEaTbpYywn7XmS03EspmNF0aH31HEw6d6aHfT0cwsVgGoDTE2LFmdw7Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\arni1\\OneDrive\\Desktop\\fullstackcours\\c#\\projects\\ExamsPlatform\\ClientWPF\\ExamsPlatform.ClientWPF.csproj",
+  "projectFilePath": "C:\\Users\\arni1\\OneDrive\\Desktop\\fullstackcours\\projects\\ExamsPlatforms\\ExamsPlatform.ClientWPF.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
