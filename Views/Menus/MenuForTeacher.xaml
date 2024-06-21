@@ -1,4 +1,4 @@
-﻿<UserControl x:Class="ExamsPlatform.ClientWPF.Views.Menus.NoUserMenu"
+﻿<UserControl x:Class="ExamsPlatform.ClientWPF.Views.Menus.MenuForTeacher"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -11,12 +11,25 @@
 			<ColumnDefinition/>
 			<ColumnDefinition Width="auto"/>
 		</Grid.ColumnDefinitions>
-		<Menu >
+		<Menu>
+			<MenuItem Header="Options">
+				<MenuItem Header="font size">
+					<MenuItem Header="small"/>
+					<MenuItem Header="default"/>
+					<MenuItem Header="big"/>
+				</MenuItem>
+				<MenuItem Header="apearence">
+					<MenuItem Header="dark mode"/>
+					<MenuItem Header="bright mode"/>
+				</MenuItem>
+			</MenuItem>
 			<MenuItem Header="Home" Click="GoToHomePage"/>
+			<MenuItem Header="Exams" Click="GoToExamsPage"/>
+			<MenuItem Header="Create New Exam" Click="GoToCreateNewExamPage"/>
+			<MenuItem Header="Calender" Click="GoToCalendarPage"/>
 		</Menu>
 		<Menu Grid.Column="1">
-			<MenuItem Header="Sign In" Click="GoToSignInPage"/>
-			<MenuItem Header="Sign Up" Click="GoToSignUpPage"/>
+			<MenuItem Header="Sign Out" Click="SIgnOut" HorizontalAlignment="Right"/>
 		</Menu>
 	</Grid>
 </UserControl>

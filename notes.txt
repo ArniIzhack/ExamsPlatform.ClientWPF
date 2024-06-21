@@ -1,7 +1,13 @@
 ﻿next
-build menues for teacher.
-create the pages the teacher use.
-build menues for student.
-create the pages the teacher use.
+3.build menue for student.
+4.create the pages the teacher use.
+5.build the pages and the user controls they need.
 
-then build the pages and the user controls they need.
+TODO
+MainWindow
+1. set DataContext.
+2. load menu according to changes of the user type.
+
+MenuForTeacher
+implement options and sign out buttons.
+

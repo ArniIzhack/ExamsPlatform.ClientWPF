@@ -25,12 +25,18 @@ namespace ExamsPlatform.ClientWPF
 			InitializeComponent();
 			// initialize this reference of MainWindow in a static object that will be accesed fron the entire app. 
 			AppHelpers.InitializeMainWindow(this);
+			// load SignInPage in the ContentControl bodyContent (at MainWindow)
+			AppHelpers.MoveToPage<SignInPage>();
 		}
-
+		/// <summary>
+		/// temporary methode, only for ez testing
+		/// </summary>
+		/// <param name="sender"></param>
+		/// <param name="e"></param>
 		private void Window_Loaded(object sender, RoutedEventArgs e)
 		{
-			NoUserMenu noUserMenu = new NoUserMenu();
-			MenuContent.Content = noUserMenu;
-		}
+			MenuForTeacher menu = new MenuForTeacher();
+			MenuContent.Content = menu;
+		}	
 	}
 }
