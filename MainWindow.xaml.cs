@@ -1,4 +1,5 @@
 ﻿using ExamsPlatform.ClientWPF.Views.Menus;
+using ExamsPlatform.ClientWPF.Helpers;
 using System.ComponentModel;
 using System.Text;
 using System.Windows;
@@ -10,6 +11,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using ExamsPlatform.ClientWPF.Views.Pages;
 
 namespace ExamsPlatform.ClientWPF
 {
@@ -21,6 +23,8 @@ namespace ExamsPlatform.ClientWPF
 		public MainWindow()
 		{
 			InitializeComponent();
+			// initialize this reference of MainWindow in a static object that will be accesed fron the entire app. 
+			AppHelpers.InitializeMainWindow(this);
 		}
 
 		private void Window_Loaded(object sender, RoutedEventArgs e)

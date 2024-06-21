@@ -1,1 +1,7 @@
-﻿
+﻿next
+build menues for teacher.
+create the pages the teacher use.
+build menues for student.
+create the pages the teacher use.
+
+then build the pages and the user controls they need.

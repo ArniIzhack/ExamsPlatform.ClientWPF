@@ -1,4 +1,5 @@
 ﻿using ExamsPlatform.ClientWPF.Views.Pages;
+using ExamsPlatform.ClientWPF.Helpers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -32,12 +33,7 @@ namespace ExamsPlatform.ClientWPF.Views.Menus
 		/// <param name="e"></param>
 		private void GoToHomePage(object sender, RoutedEventArgs e)
 		{
-			// create an instance of HomePage
-			HomePage homePage = new HomePage();
-			// get the instance of MainWindow that contain this UserControl.
-			MainWindow window = Window.GetWindow(this) as MainWindow;
-			// load HomePage in the ContentControl bodyContent (at MainWindow)
-			window.bodyContent.Content = homePage;
+			AppHelpers.MoveToPage<HomePage>();
 		}
 		/// <summary>
 		/// load SignInPage in the ContentControl bodyContent (at MainWindow)
@@ -46,12 +42,7 @@ namespace ExamsPlatform.ClientWPF.Views.Menus
 		/// <param name="e"></param>
 		private void GoToSignInPage(object sender, RoutedEventArgs e)
 		{
-			// create an instance of SignInPage
-			SignInPage signInPage = new SignInPage();
-			// get the instance of MainWindow that contain this UserControl.
-			MainWindow window = Window.GetWindow(this) as MainWindow;
-			// load SignInPage in the ContentControl bodyContent (at MainWindow)
-			window.bodyContent.Content = signInPage;
+			AppHelpers.MoveToPage<SignInPage>();
 		}
 		/// <summary>
 		/// load SignUpPage in the ContentControl bodyContent (at MainWindow)
@@ -60,12 +51,7 @@ namespace ExamsPlatform.ClientWPF.Views.Menus
 		/// <param name="e"></param>
 		private void GoToSignUpPage(object sender, RoutedEventArgs e)
 		{
-			// create an instance of SignUpPage
-			SignUpPage signUpPage = new SignUpPage();
-			// get the instance of MainWindow that contain this UserControl.
-			MainWindow window = Window.GetWindow(this) as MainWindow;
-			// load SignUpPage in the ContentControl bodyContent (at MainWindow)
-			window.bodyContent.Content = signUpPage;
+			AppHelpers.MoveToPage<SignUpPage>();
 		}
 	}
 }
