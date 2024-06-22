@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\arni1\OneDrive\Desktop\fullstackcours\projects\ExamsPlatforms\App.xaml
-9-2095931068
+111487439025
 
-151188414587
+17-1114566182
 1981451641563
-MainWindow.xaml;Views\Menus\MenuForTeacher.xaml;Views\Menus\NoUserMenu.xaml;Views\Pages\CalendarPage.xaml;Views\Pages\CreateNewExamPage.xaml;Views\Pages\ExamsPage.xaml;Views\Pages\HomePage.xaml;Views\Pages\SignInPage.xaml;Views\Pages\SignUpPage.xaml;
+MainWindow.xaml;Views\Menus\MenuForStudent.xaml;Views\Menus\MenuForTeacher.xaml;Views\Menus\NoUserMenu.xaml;Views\Pages\CalendarPage.xaml;Views\Pages\CreateNewExamPage.xaml;Views\Pages\ExamsPage.xaml;Views\Pages\HomePage.xaml;Views\Pages\SignInPage.xaml;Views\Pages\SignUpPage.xaml;Views\Pages\StartAnExamPage.xaml;
 
-True
+False
 

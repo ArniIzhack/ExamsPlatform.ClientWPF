@@ -29,8 +29,15 @@ NoUserMenu.xaml contain 3 items:
 ## MenuForTeacher.xaml + MenuForTeacher.xaml.cs
 MenuForTeacher will be displayed for teachers, it got 6 items :
 1. options - still not implemented. TODO - allow the user to change the view of the app, text size, dark/bright mode, atc.
-2-5. buttons that will load pages : home, exams, create new exam and calendar.
-6. sign out - still not implemented. TODO - sign the user out and load SignInPage.
+2. sign out - still not implemented. TODO - sign the user out and load SignInPage.
+3. 2-5. buttons that will load pages : home, exams, create new exam and calendar.
+
+## MenuForStudent.xaml + MenuForStudent.xaml.cs
+MenuForStudent will be displayed for students, it got 6 items :
+1. options - still not implemented. TODO - allow the user to change the view of the app, text size, dark/bright mode, atc.
+2. sign out - still not implemented. TODO - sign the user out and load SignInPage.
+3. 2-5. buttons that will load pages : home, exams, start an exam and calendar.
+
 
 # PAGES
 
@@ -45,6 +52,8 @@ MenuForTeacher will be displayed for teachers, it got 6 items :
 ## CreateNewExamPage.xaml
 
 ## CalendarPage.xaml
+
+## StartAnExam.xaml
 
 # HELPERS
 

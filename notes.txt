@@ -1,7 +1,10 @@
 ﻿next
-3.build menue for student.
-4.create the pages the teacher use.
 5.build the pages and the user controls they need.
+
+
+
+
+
 
 TODO
 MainWindow
@@ -10,4 +13,7 @@ MainWindow
 
 MenuForTeacher
 implement options and sign out buttons.
+
+
+
 
