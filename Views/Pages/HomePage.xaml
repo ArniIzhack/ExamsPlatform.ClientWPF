@@ -5,8 +5,12 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:ExamsPlatform.ClientWPF.Views.Pages"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800">
+             d:DesignHeight="450" d:DesignWidth="800" Loaded="UserControl_Loaded">
     <Grid>
-		<TextBlock Text="home page"/>
+		<StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+			<TextBlock x:Name="welcomeTextBlock"/>
+			<Button x:Name="btnGoToSignInPage" Margin="0" BorderThickness="0" Background="Transparent" Foreground="Blue"
+					Content="sign in." Click="btnGoToSignInPage_Click"/>
+		</StackPanel>
 	</Grid>
 </UserControl>

@@ -4,6 +4,8 @@
              xmlns:local="clr-namespace:ExamsPlatform.ClientWPF"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
-    </Application.Resources>
+		<Style TargetType="Grid">
+			<Setter Property="Background" Value="White"/>
+		</Style>
+	</Application.Resources>
 </Application>

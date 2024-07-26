@@ -50,6 +50,22 @@ MenuForStudent will be displayed for students, it got 6 items :
 
 ### HomePage.xaml
 
+contain 2 elements:
+1. welcome TextBlock.
+2. button for moving to sign in page (will be hidden when there is a user Signed in).
+
+### HomePage.xaml.cs
+UserControl_Loaded()
+activates when the page is loaded, invoke the 'InitWelcomeTextBlock' method, that load a welcome text based on the type of the user.
+
+InitWelcomeTextBlock()
+InitWelcomeTextBlock responsible for loading a welocme text messege based on the type of the user.
+if there is no user signed in show the default messege.
+if there is a user signed in show a messege with his name, and hide the sign in button.
+
+btnGoToSignInPage_Click()
+invoked when the user click on the sign in button. load the sign in page.
+
 ### SignInPage.xaml
 
 ### SignUpPage.xaml
