@@ -9,9 +9,9 @@
 	<ScrollViewer>
 		<Grid>
 			<Grid.RowDefinitions>
-				<RowDefinition Height="30"/>
+				<RowDefinition Height="auto"/>
 				<RowDefinition/>
-				<RowDefinition Height="20"/>
+				<RowDefinition Height="auto"/>
 			</Grid.RowDefinitions>
 			<ContentControl x:Name="MenuContent"/>
 			<ContentControl Name="bodyContent" Grid.Row="1"/>

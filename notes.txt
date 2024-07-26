@@ -1,5 +1,10 @@
 ﻿next
 5.build the pages and the user controls they need.
+home, sign in, sign up, exams, newexam, calendar, start exam
+
+home
+
+greeting, when there is no user there will also be a button directing to sign in page.
 
 
 
@@ -10,8 +15,10 @@ TODO
 MainWindow
 1. set DataContext.
 2. load menu according to changes of the user type.
+HomePage
+1. InitWelcomeTxt() will load text based on the user type.
 
-MenuForTeacher
+MenuForTeacher and MenuForStudent
 implement options and sign out buttons.
 
 

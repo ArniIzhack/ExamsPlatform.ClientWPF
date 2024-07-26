@@ -20,10 +20,9 @@ namespace ExamsPlatform.ClientWPF.Helpers
 		}
 		/// <summary>
 		/// initialize the window that contain the entire app in MainWindow 
-		/// 
 		/// </summary>
 		/// <param name="mainWindow"></param>
-		public static void InitializeMainWindow(MainWindow mainWindow)
+		public async static void InitializeMainWindow(MainWindow mainWindow)
 		{
 			MainWindow = mainWindow;
 		}
