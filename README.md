@@ -12,10 +12,16 @@ MainWindow.xaml is the only window in my project, it is made of a table with 3 r
 2. content row will contain the pages.
 3. footer will hold some general information, currently only my information.
 
-MainWindow()
+MainWindow() constructore
 1. initialize a reference of MainWindow in a static object that will be accesed fron the entire app. 
-2. load SignInPage.
-//  TODO - 1. set DataContext. 2. load menu according to changes of the user type.
+2. load HomePage.
+3. initialize a 'UserVM' as it's DataContext.
+4. activate the 'DisplayMenu' method that load a menu base on the type of the user.
+
+DisplayMenu() mthode
+checks what is the type of the current user and loads the corresponding menu.
+
+//  TODO - 2. load menu according to changes of the user type.
 
 
 ## MENUS
@@ -79,16 +85,20 @@ constructors:
 
 ### User.cs
 User represent the user information model.
-fields :
+fields and properties:
 'Id' (Primary Key): The unique identifier for the user.
 'UserId': User's identification number.
 'FirstMame', 'LastName',  'Email', 'PhoneNumber', 'Password', 'UserType' : basic user information.
 'ExamsNames'- a list of exams names related to the user.
-constructors :
+
+User() cinstructor
 1. A default constructor sets default values: empty strings for textual fields, 'NoType' for 'UserType', and a new list for 'ExamsNames'.
-2. A constructor initalize all fields exept for the primery key 'Id'.
+User(string personId, string firstName, string lastName, string email, string phoneNumber, string password,	UserType userType, List<string> examsNames)
+A constructor initalize all fields exept for the primery key 'Id'.
+
 methods :
-GetFullName - asynchronous method that returns the full name of the user.
+GetFullName()
+an asynchronous method that returns the full name of the user.
 
 
 ## HELPERS
